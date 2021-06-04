@@ -4,8 +4,8 @@
   "type": "library",
   "authors": [
     {
-      "name": "Kirill Mokevnin",
-      "email": "mokevnin@gmail.com"
+      "name": "Karakin Alexandr",
+      "email": "bulik889@gmail.com"
     }
   ],
   "description": "hexlet php-package",
@@ -17,7 +17,10 @@
     "psr-4": {
       "Php\\Package\\": "src",
       "Php\\Package\\Tests\\": "tests"
-    }
+    },
+    "files": [
+      "src/Utils.php"
+    ]
   },
   "require": {
     "tightenco/collect": "^5.6",
